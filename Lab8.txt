@@ -1,0 +1,14 @@
+function FindCoefficients(f, g):
+    if degree(f) < degree(g):
+        swap(f, g)
+
+    while g ≠ 0:
+        q = f div g
+        r = f mod g
+        f = g
+        g = r
+
+    A = f div nwd(f, g)
+    B = g div nwd(f, g)
+
+    return A, B
