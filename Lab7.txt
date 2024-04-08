@@ -1,0 +1,5 @@
+    GCD (x4+x2+1,x4−x2−2x−1,x3−1) = x+1
+
+    GCD (x3+x2−4x−4,x3−x2−4x+4,x3−2x2−x+2) = x−2 
+
+(Wolfram Alpha)
