@@ -1,0 +1,19 @@
+PolynomialQuotientRemainder: Funkcja ta oblicza iloraz i resztę z dzielenia wielomianów. Na przykład:
+
+PolynomialQuotientRemainder[x^3 + 2x^2 - 5x + 6, x - 2]
+
+PolynomialGCD: Oblicza największy wspólny dzielnik dwóch wielomianów.
+
+PolynomialGCD[x^2 - 4, x^3 - 8x]
+
+PlotParametric: Generuje wykres krzywej 
+
+PlotParametric[{Cos[t], Sin[t]}, {t, 0, 2 Pi}]
+
+Plot3D: Generuje trójwymiarowy wykres funkcji
+
+Plot3D[{Sin[x] Cos[y], x^2 + y^2}, {x, -2, 2}, {y, -2, 2}]
+
+ParametricPlot3D: Generuje trójwymiarowy wykres krzywej lub powierzchni 
+
+ParametricPlot3D[{Sin[t], Cos[t], t}, {t, 0, 2 Pi}]
